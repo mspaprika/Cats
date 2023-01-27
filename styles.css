@@ -106,7 +106,7 @@ grid-image {
     border-radius: 10%;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 800px) {
+@media only screen and (min-width: 360px) {
     .grid-container {
         grid-template-columns: repeat(1, 600px);
     }
