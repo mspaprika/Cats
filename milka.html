@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function changeImages1() {
+            var image = document.getElementById('image');
+
+            if (image.src.match("evil.jpeg")) {
+                image.src = "milka-port.jpg";
+            }
+            else {
+                image.src = "evil.jpeg";
+            }
+        };
+        function changeImages2() {
+            var image = document.getElementById('image2');
+
+            if (image.src.match("evil2.jpg")) {
+                image.src = "cute.jpg";
+            }
+            else {
+                image.src = "evil2.jpg";
+            }
+        };
+        function changeImages3() {
+            var image = document.getElementById('image3');
+
+            if (image.src.match("evil3.jpg")) {
+                image.src = "cute2.jpg";
+            }
+            else {
+                image.src = "evil3.jpg";
+            }
+        };         
+    </script>
+
+    <title>I am Milka</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary-subtle">
+        <div class="container-fluid">
+            <a class="navbar-brand comic" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active comic" aria-current="page" href="boxes.html">Cats and boxes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link comic" href="loafs.html">Loaf Cats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link comic" href="sleep.html">Sleeping Angels</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <p class="par">
+    <h1 class="purple center cursive h1">Milka's corner</h1>
+    </p>
+    <p class="par cursive center">
+        Hello my friends! Welcome to my corner. I hope you'll enjoy my pictures as much as I do :) <br>
+        There's a short story about me. <br>
+        I am a house cat born in November 2020, so I should be like...2 years old. Fix me if I'm wrong. I'm a cat so
+        calculating
+        is just not my thing. <br> I like hunting flies and mosquitos, sleeping and playing with toys. But there is one
+        thing
+        I really love. Its pushing various things off the edges. You would not believe how much fun it is! Try it some
+        time
+        and you'll see. <br>
+        Just because I'm a house cat doesn't mean I don't enjoy outside world. In fact, I enjoy it even too much, to the
+        point where my humans have to put harness on my neck so I would not escape to the wild. That's annoying but I
+        just can't help myself. As soon as I feel
+        fresh air in my nose I cannot control myself anymore. I climb fences and even roofs. You would not expect a
+        house
+        cat to be that cool :) <br>
+        My most favourite thing in the world? <br> Oh.. there's so many I cannot decide. Chasing flies? Or that red dot?
+        sometimes
+        all I need is that bright shadow on the wall (whatever it is). If you have some empty boxes, then we have a
+        deal.
+        It doesn't have to be empty though. Its easily fixable. If you want to see more about boxes...
+        <a href="boxes.html">go here!</a> <br>
+        I think I know finally my favourite thing. And its....being the center of attention! I can't be the only one
+        like this, right?
+        <br><br>
+        But there is a little secret about me. One minute I can be the cutest thing in the world. The other I will be
+        chasing
+        you around the house (as if you could escape from me :) and you will notice this evil look on my face.
+        My humans think I have double personality but for me it's just a life. <br> <br>
+        But sometimes I can't shake a feeling that they might be right. <br>
+        What do YOU think ?
+    </p>
+    <div class="grid-container">
+        <img class="grid-image" id="image" src="milka-port.jpg" alt="face of a white cat">
+        <img class="grid-image" id="image2" src="cute.jpg" alt="cat licking paws">
+        <img class="grid-image" id="image3" src="cute2.jpg" alt="cat staring at window">
+        <button onclick="changeImages1()" type="button" id="btn-js1" class="btn btn-primary btn-js">Press to meet
+            devil</button>
+        <button onclick="changeImages2()" type="button" id="btn-js2" class="btn btn-primary btn-js">Press to meet
+            devil</button>
+        <button onclick="changeImages3()" type="button" id="btn-js3" class="btn btn-primary btn-js">Press to meet
+            devil</button>
+    </div>
+    <p class="par cursive center">
+        Don't go away yet, I've got some more photos to show you !
+    </p>
+    <div class="grid-container bottom">
+        <img class="grid-image" src="photos/milka-brick.jpg" alt="cat on brick fence">
+        <img class="grid-image" src="photos/snow.jpg" alt="cat on snow">
+        <img class="grid-image" src="photos/open.jpg" alt="cat with open mouth">
+        <img class="grid-image" src="photos/milka-roof.jpg" alt="white cat on the roof">
+        <img class="grid-image" src="photos/hor-out.jpg" alt="cat with harness">
+        <img class="grid-image" src="photos/hor-bed2.jpg" alt="cat in the bed">
+        <img class="grid-image" src="photos/outside.jpg" alt="cat in the garden">
+        <img class="grid-image" src="photos/princess.jpg" alt="white cat">
+        <img class="grid-image" src="photos/milka-tree.jpg" alt="cat in a cat-tree">
+    </div>
+    <p class="par white cursive center">
+        And now prepare to be overloaded by cuteness ! <br> Let me introduce... <br> baby Milka !
+    </p>
+    <div class="grid-container bottom">
+        <img class="grid-image" src="photos/baby-milka.jpg" alt="baby cat">
+        <img class="grid-image" src="photos/baby-milka3.jpg" alt="baby cat">
+        <img class="grid-image" src="photos/baby-milka2.jpg" alt="baby cat">
+    </div>
+</body>
+
+</html>
