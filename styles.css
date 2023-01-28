@@ -36,6 +36,7 @@ body {
 
 .image-container {
     height: 450px;
+    position: relative;
 }
 
 .image-container img {
@@ -44,7 +45,7 @@ body {
 
 .welcome {
     position: absolute;
-    top: 60px;
+    top: 10px;
     left: 30%;
     font-size: 50px;
     color: #1D86F6;
