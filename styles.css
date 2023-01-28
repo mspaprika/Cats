@@ -189,6 +189,10 @@ body {
     .btn-js {
         transform: translateX(-1px) !important;
     }
+    body {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
 }
 
 .bottom {
