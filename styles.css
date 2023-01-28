@@ -19,6 +19,13 @@ body {
 .white {
     color: white;
 }
+.cursive {
+    font-family: cursive;
+}
+
+.comic {
+    font-family: comic sans ms;
+}
 
 .par {
     font-size: large;
@@ -124,10 +131,12 @@ body {
         font-size: 30px;
         padding: 40px;
         padding-bottom: 20px;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .h1 {
         font-size: 50px !important;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .card {
@@ -205,10 +214,4 @@ body {
     width: 80%;
 }
 
-.cursive {
-    font-family: cursive;
-}
 
-.comic {
-    font-family: comic sans ms;
-}
