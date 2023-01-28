@@ -114,21 +114,12 @@ grid-image {
 }
 
 @media only screen and (min-width: 360px) {
-    .html {
-        height: 5500px;
-    }
 
     .navbar-brand .nav-item a {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     }
 
-    .newsletter {
-        position: relative;
-        top: 100px;
-    }
-
     .cat-table {
-        position: relative;
         height: 700px;
         width: 100%;
         font-size: 15px !important;
@@ -143,16 +134,16 @@ grid-image {
     }
 
     .form-container {
-        position: relative;
+        /* position: relative; */
         top: 100px;
         z-index: 1;
     }
 
     .table {
-        position: absolute;
-        left: 20px;
+        position: relative;
+        left: -25%;
         table-layout: fixed;
-        width: 85% !important;
+        width: 120% !important;
     }
 
     .image-container {
@@ -173,6 +164,7 @@ grid-image {
         top: 0;
         left: 55px;
         font-family: cursive;
+        color: rgb(91, 235, 235);
     }
 
     .intro {
