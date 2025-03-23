@@ -8,6 +8,14 @@ body {
     text-align: center;
 }
 
+.flex-col
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw !important;
+}
+
 .purple {
     color: rgb(110, 9, 161) !important;
 }
@@ -20,11 +28,32 @@ body {
     color: white !important;
 }
 
+.yellow
+{
+    color: rgb(233, 229, 9) !important;
+}
+
+.green
+{
+    color: rgb(50, 224, 50) !important;
+}
+
+.pink
+{
+    color: rgb(241, 83, 194) !important;
+}
+
+.long-img{
+    width: clamp(100%, 30vw, 500px) !important;
+}
+
 .par {
     font-size: large;
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    /* width: clamp(80vw, 100%, 100vw); */
+    max-width: 1200px;
 }
 
 .image-container {
@@ -111,6 +140,13 @@ grid-image {
     padding: 30px;
     padding-left: 25%;
     width: 80%;
+}
+
+.card-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
 }
 
 .navbar-brand {
@@ -213,18 +249,6 @@ grid-image {
     .btn-primary {
         height: 40px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    }
-
-    #first-btn {
-        transform: translateX(65%);
-    }
-
-    #middle-btn {
-        transform: translateX(110%);
-    }
-
-    #last-btn {
-        transform: translateX(40%);
     }
 
     #btn-js1 {
